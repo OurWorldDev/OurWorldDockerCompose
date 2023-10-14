@@ -1,0 +1,3 @@
+[submodule "OurWorld"]
+	path = OurWorld
+	url = https://github.com/OurWorldOrg/OurWorld.git
