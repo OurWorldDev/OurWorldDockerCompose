@@ -1,0 +1,14 @@
+services:
+  ourworld:
+    restart: always
+    env_file: .env
+    #build: .
+    image: ghcr.io/ourworldorg/ourworld:latest #自定义镜像名和版本号
+    container_name: ourworld
+    ports:
+      - 3000:3000
+#    volumes:
+#      - data:/data
+#volumes:
+#  data:
+#    size: 5Gi
